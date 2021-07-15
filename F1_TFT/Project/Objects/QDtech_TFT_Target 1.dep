@@ -1,0 +1,121 @@
+Dependencies for Project 'QDtech_TFT', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\Libraries\CMSIS\startup\startup_stm32f10x_md.s)(0x60B3B65B)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 535" --pd "STM32F10X_MD SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (..\User\stm32f10x_it.c)(0x4AF1081C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (..\User\stm32f10x_it.h)(0x4AF11990)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+F (..\User\delay.c)(0x60F02238)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+I (..\User\delay.h)(0x60F02238)
+F (..\User\GUI.c)(0x60F04ABE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\gui.o --omf_browse .\objects\gui.crf --depend .\objects\gui.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+I (..\User\Lcd_Driver.h)(0x60F02238)
+I (..\User\GUI.h)(0x4EDA4F8D)
+I (..\User\delay.h)(0x60F02238)
+I (..\User\font.h)(0x52CB99E1)
+F (..\User\Lcd_Driver.c)(0x60F04E89)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\lcd_driver.o --omf_browse .\objects\lcd_driver.crf --depend .\objects\lcd_driver.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+I (..\User\Lcd_Driver.h)(0x60F02238)
+I (..\User\delay.h)(0x60F02238)
+F (..\User\main.c)(0x60F00D25)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+I (..\User\delay.h)(0x60F02238)
+I (..\User\QDTFT_demo.h)(0x52A8874E)
+F (..\User\QDTFT_demo.c)(0x60F04E8F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\qdtft_demo.o --omf_browse .\objects\qdtft_demo.crf --depend .\objects\qdtft_demo.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+I (..\User\Lcd_Driver.h)(0x60F02238)
+I (..\User\GUI.h)(0x4EDA4F8D)
+I (..\User\delay.h)(0x60F02238)
+I (..\User\Picture.h)(0x53059367)
+I (..\User\QDTFT_demo.h)(0x52A8874E)
+F (..\Libraries\FWlib\src\misc.c)(0x60B3B65B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\Libraries\FWlib\inc\misc.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+F (..\Libraries\FWlib\src\stm32f10x_gpio.c)(0x60B3B65B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+F (..\Libraries\FWlib\src\stm32f10x_rcc.c)(0x60B3B65B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+F (..\Libraries\FWlib\src\stm32f10x_spi.c)(0x60B3B65B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+F (..\Libraries\CMSIS\core_cm3.c)(0x60B3B65B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\Libraries\CMSIS\system_stm32f10x.c)(0x60B3B65B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\Libraries\CMSIS -I ..\Libraries\FWlib\inc -I ..\User-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x60B3B65B)
+I (..\Libraries\CMSIS\core_cm3.h)(0x60B3B65B)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x60B3B65B)
+I (..\User\stm32f10x_conf.h)(0x52CAC002)
+I (..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x60B3B65B)
+I (..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x60B3B65B)
+F (..\readme.txt)(0x60F00CBA)()

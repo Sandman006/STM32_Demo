@@ -27,7 +27,7 @@ void UpdateScreen(void)
 
 void FillByte(int page,int x,unsigned  char byte)
 {
-		if(GetFillColor())
+	if(GetFillColor())
 			WriteByteBuffer(page,x,ReadByteBuffer(page,x)|byte);
 	else
 			WriteByteBuffer(page,x,ReadByteBuffer(page,x)&(~byte));

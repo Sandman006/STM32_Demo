@@ -5,12 +5,15 @@
 #include "stdlib.h"	
 
 
-//-----------------OLED端口定义---------------- 
-#define OLED_SCLK_Clr() GPIO_ResetBits(GPIOA,GPIO_Pin_5)
-#define OLED_SCLK_Set() GPIO_SetBits(GPIOA,GPIO_Pin_5)		//SCL
+#define GPIO_CLK_Pin	GPIO_Pin_10
+#define GPIO_SDA_Pin	GPIO_Pin_11
 
-#define OLED_SDIN_Clr() GPIO_ResetBits(GPIOA,GPIO_Pin_7)	//DIN
-#define OLED_SDIN_Set() GPIO_SetBits(GPIOA,GPIO_Pin_7)
+//-----------------OLED端口定义---------------- 
+#define OLED_SCLK_Clr() GPIO_ResetBits(GPIOB,GPIO_CLK_Pin)
+#define OLED_SCLK_Set() GPIO_SetBits(GPIOB,GPIO_CLK_Pin)		//SCL
+
+#define OLED_SDIN_Clr() GPIO_ResetBits(GPIOB,GPIO_SDA_Pin)	//DIN
+#define OLED_SDIN_Set() GPIO_SetBits(GPIOB,GPIO_SDA_Pin)
 
 
 #define OLED_CMD  0	//写命令

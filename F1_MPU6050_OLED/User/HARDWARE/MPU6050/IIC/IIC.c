@@ -21,7 +21,7 @@ void IIC_Delay(void)
 void IIC_Init(void)
 {					     
 	GPIO_InitTypeDef GPIO_InitStructure;
-	RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOB, ENABLE );	//使能GPIOB时钟
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);	//使能GPIOB时钟
 	   
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6|GPIO_Pin_7;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP ;   //推挽输出
@@ -32,7 +32,7 @@ void IIC_Init(void)
 //产生IIC起始信号
 u8 IIC_Start(void)
 {
-		SDA_OUT();     //sda线输出
+	SDA_OUT();     //sda线输出
 	IIC_SDA=1;
 	if(!READ_SDA)return 0;	
 	IIC_SCL=1;

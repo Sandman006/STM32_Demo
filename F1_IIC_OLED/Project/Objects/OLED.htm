@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\OLED.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\OLED.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Thu Jul 08 14:04:16 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Thu Jul 22 08:14:57 2021
 <BR><P>
 <H3>Maximum Stack Usage =        100 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -433,7 +433,7 @@ Global Symbols
 <LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Status_Bar
 </UL>
 
-<P><STRONG><a name="[4c]"></a>IIC_Init</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, oled.o(.text))
+<P><STRONG><a name="[4c]"></a>IIC_Init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, oled.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = IIC_Init &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
@@ -581,7 +581,7 @@ Global Symbols
 <LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DayAndDayDisplay
 </UL>
 
-<P><STRONG><a name="[51]"></a>OLED_P8x16Str</STRONG> (Thumb, 146 bytes, Stack size 32 bytes, oled.o(.text))
+<P><STRONG><a name="[51]"></a>OLED_P8x16Str</STRONG> (Thumb, 148 bytes, Stack size 32 bytes, oled.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = OLED_P8x16Str &rArr; OLED_Set_Pos &rArr; OLED_WrCmd &rArr; Write_IIC_Byte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OLED_Set_Pos

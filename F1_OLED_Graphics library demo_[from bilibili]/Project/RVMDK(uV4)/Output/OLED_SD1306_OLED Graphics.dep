@@ -735,7 +735,7 @@ I (..\..\example\test.h)(0x5F52FD4D)
 I (..\..\User\oledlib\draw_api.h)(0x5F52FD4D)
 I (..\..\User\oledlib\oled_config.h)(0x60306589)
 I (..\..\User\oledlib\oled_basic.h)(0x5F52FD4D)
-I (..\..\User\oledlib\oled_driver.h)(0x60307C36)
+I (..\..\User\oledlib\oled_driver.h)(0x60F8B5F6)
 I (..\..\User\oledlib\oled_draw.h)(0x5F52FD4D)
 I (..\..\User\oledlib\oled_color.h)(0x5F52FD4D)
 I (..\..\User\oledlib\oled_buffer.h)(0x5F52FD4D)
@@ -855,7 +855,7 @@ I (..\..\User\oledlib\oled_color.h)(0x5F52FD4D)
 F (..\..\User\oledlib\oled_config.c)(0x5F52FD4D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\example -I ..\..\User\oledlib-I.\RTE\_OLED_Graphics-IC:\Users\zbn02\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\output\oled_config.o --omf_browse .\output\oled_config.crf --depend .\output\oled_config.d)
 I (..\..\User\oledlib\oled_config.h)(0x60306589)
 I (..\..\User\oledlib\oled_basic.h)(0x5F52FD4D)
-I (..\..\User\oledlib\oled_driver.h)(0x60307C36)
+I (..\..\User\oledlib\oled_driver.h)(0x60F8B5F6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x5F52FD4D)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x5F52FD4D)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -905,7 +905,7 @@ I (C:\Program Files\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
 I (..\..\User\oledlib\oled_bmp.h)(0x5F52FD4D)
 I (..\..\User\oledlib\oled_font.h)(0x5F52FD4D)
 F (..\..\User\oledlib\oled_driver.c)(0x5F52FD4D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\example -I ..\..\User\oledlib-I.\RTE\_OLED_Graphics-IC:\Users\zbn02\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\zbn02\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\output\oled_driver.o --omf_browse .\output\oled_driver.crf --depend .\output\oled_driver.d)
-I (..\..\User\oledlib\oled_driver.h)(0x60307C36)
+I (..\..\User\oledlib\oled_driver.h)(0x60F8B5F6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x5F52FD4D)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x5F52FD4D)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -943,7 +943,7 @@ I (..\..\example\test.h)(0x5F52FD4D)
 I (..\..\User\oledlib\draw_api.h)(0x5F52FD4D)
 I (..\..\User\oledlib\oled_config.h)(0x60306589)
 I (..\..\User\oledlib\oled_basic.h)(0x5F52FD4D)
-I (..\..\User\oledlib\oled_driver.h)(0x60307C36)
+I (..\..\User\oledlib\oled_driver.h)(0x60F8B5F6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x5F52FD4D)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x5F52FD4D)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -988,7 +988,7 @@ I (..\..\example\oled_draw_ex_example.h)(0x5F52FD4D)
 I (..\..\User\oledlib\draw_api.h)(0x5F52FD4D)
 I (..\..\User\oledlib\oled_config.h)(0x60306589)
 I (..\..\User\oledlib\oled_basic.h)(0x5F52FD4D)
-I (..\..\User\oledlib\oled_driver.h)(0x60307C36)
+I (..\..\User\oledlib\oled_driver.h)(0x60F8B5F6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x5F52FD4D)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x5F52FD4D)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)

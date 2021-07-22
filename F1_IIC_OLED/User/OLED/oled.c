@@ -26,11 +26,11 @@
 void IIC_Init(void)
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); //使能端口时钟
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5|GPIO_Pin_7;	//端口配置
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE); //使能端口时钟
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10|GPIO_Pin_11;	//端口配置
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;      //推挽输出
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;     //50M
-	GPIO_Init(GPIOA, &GPIO_InitStructure);
+	GPIO_Init(GPIOB, &GPIO_InitStructure);
 }
 /**************************实现函数********************************************
 *函数原型:		void IIC_Start(void)

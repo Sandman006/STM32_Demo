@@ -3,8 +3,8 @@
 
 #include "sys.h"
 
-#define OLED_IIC_SCL  PAout(5) //SCL   串行时钟
-#define OLED_IIC_SDA  PAout(7) //SDA	 串行数据
+#define OLED_IIC_SCL  PBout(10) //SCL   串行时钟
+#define OLED_IIC_SDA  PBout(11) //SDA	 串行数据
 
 #define high 1
 #define low 0
